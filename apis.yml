@@ -1,8 +1,13 @@
 aid: metatheory
 name: Metatheory
-description: Metatheory is a company surfaced as a portfolio company of a16z, pantera-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Metatheory, Inc. is an independent studio of builders that makes games
+  and, through an AI-led software division, tools built for makers. The team describes
+  itself as builders, dreamers and doers applying what they have learned making games
+  to software, building in public and sharing what they learn. Metatheory has been
+  surfaced as a portfolio company of a16z and Pantera Capital and added to the API
+  Evangelist network. As of this enrichment pass the public site (metatheory.gg) is
+  a single-page marketing site with no developer portal, documentation, API, OpenAPI,
+  SDK, or public developer surface; the only public contact is support@metatheory.gg.
 url: https://raw.githubusercontent.com/api-evangelist/metatheory/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +16,28 @@ x-backed-by:
 - pantera-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://metatheory.gg/assets/favicon-hOT9osVI.png
 tags:
 - Company
+- Games
+- Game Studio
+- Software
+- Artificial Intelligence
+- Studio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/metatheory-domain-security.yml
 - type: Website
   url: https://metatheory.gg/
+- type: Support
+  url: mailto:support@metatheory.gg
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
